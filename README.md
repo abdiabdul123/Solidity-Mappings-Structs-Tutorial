@@ -79,7 +79,9 @@ migrate --reset --all (make sure you are in truffle develop mode while typing th
 Courses.deployed().then(function(instance){return instance.setInstructor("0x3ffa45c3e017fccb7524f1457a44410963c9eccc",34,"Abdullahi","Abdi");})
 Courses.deployed().then(function(instance){return instance.getInstructor("0x3ffa45c3e017fccb7524f1457a44410963c9eccc");})
 Courses.deployed().then(function(instance){return instance.getInstructors();})
-Courses.deployed().then(function(instance){return instance.countInstructors();})
+Courses.deployed().then(function(instance){return instance.countInstructors();})    
+
+<img src="blockchain.png" width="100000" height="1000" >
 
 
 
