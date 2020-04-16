@@ -81,8 +81,8 @@ migrate --reset --all (make sure you are in truffle develop mode while typing th
 
 8) Now testing the our contract to make sure that if we put in fname and lname that our contract will work. For my example i used my name Abdullahi Abdi, but you can use whatever name in substitute. So now, when you are still in truffle develop, type in the following commands and it should give you the set the instructor, return the name of set instructor with that #, return all the instructors, then return how many instructors we have(in our case just 1, so length=1).     
 
-Courses.deployed().then(function(instance){return instance.setInstructor("0x3ffa45c3e017fccb7524f1457a44410963c9eccc",34,"Abdullahi","Abdi");})   
-Courses.deployed().then(function(instance){return instance.getInstructor("0x3ffa45c3e017fccb7524f1457a44410963c9eccc");})   
+Courses.deployed().then(function(instance){return instance.setInstructor("0x7027ed544e8077e201eb7ce7ade8cc552baab301",34,"Abdullahi","Abdi");})   
+Courses.deployed().then(function(instance){return instance.getInstructor("0x7027ed544e8077e201eb7ce7ade8cc552baab301");})   
 Courses.deployed().then(function(instance){return instance.getInstructors();})    
 Courses.deployed().then(function(instance){return instance.countInstructors();})    
 
